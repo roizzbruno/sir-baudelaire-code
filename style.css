@@ -16,7 +16,8 @@ section {
     padding: 20px;
     margin-bottom: 25px;
     border-radius: 10px;
-    border: 2px solid #7A9E82; 
+    border: 2px solid #7A9E82;
+    color: #5F8F6F;
 }
 
 label {
@@ -54,3 +55,23 @@ button:hover {
     background: #5F8F6F; 
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 2px solid #7A9E82;
+}
+
+th, td {
+    border: 1px solid #7A9E82;
+    padding: 8px;
+    color: #2E4F3D;
+}
+
+th {
+    background: #7A9E82;
+    color: #FAF8F0;
+    font-weight: bold;
+}
